@@ -153,3 +153,6 @@ Al almacenar solo **GUIDs/URLs** para los recursos pesados (vídeos en CDN/S3, a
 
 ### 🔒 Control de Acceso por Lección
 El campo `isPublic` dentro de cada objeto de `lessons[]` permite que cada vídeo dentro de un curso puede ser público o privado de forma independiente. Combinado con `Users.hasSubscription` y `Users.courses[]`, se soportan los tres modelos de acceso del enunciado (curso totalmente público, curso mixto, curso de pago).
+
+
+![Modelo de datos](./assets/diagram.svg)
